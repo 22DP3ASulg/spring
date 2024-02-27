@@ -18,4 +18,9 @@ public class DefaultController {
         ModelAndView modelAndView = new ModelAndView("register");
         return modelAndView;
     }
+    @GetMapping(value = "/register2")
+    ModelAndView register2() {
+        ModelAndView modelAndView = new ModelAndView("register");
+        return modelAndView;
+}
 }
